@@ -1,0 +1,607 @@
+
+body {
+  padding: 0;
+  margin: 0;
+}
+  
+
+.section {
+  display: flex;
+  flex-direction: row;
+  width: 300vw;
+}
+#sec-1 {
+  width: 100vw;
+  height: 100vh;
+    background: url("ruangtamu-01.png");
+    background-position:center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+    #image3 {
+      width: 400pt;
+      height: 400pt;
+      margin-top: 150px;
+      margin-left: 899px;
+      position:absolute;
+      z-index: 1;
+    }
+    
+    .profile{
+      width: 380pt;
+      height: 500pt;
+      margin-top: 10px;
+      margin-left: 875px;
+      z-index: 1;
+      position: absolute;
+    }
+    
+    .profile:hover {
+      cursor: pointer;
+    }
+    
+    .content {
+      position: absolute;
+      min-width: 400px;
+      background-color: #f9f9f9;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      visibility: hidden;
+      opacity: 0;
+      margin-bottom: 300px;
+      margin-left: 10px;
+      text-align: center; 
+      z-index: 5;
+    }
+    
+    .content .body1 {
+      padding: 0px;
+    }
+    
+    .content .body1 p {
+      font-size: 20pt;
+      color: #272727;
+    }
+    
+    .profile:hover .content {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    #image {
+      width: 570pt;
+      height: 570pt;
+      margin-left: 450px;
+      margin-top: 340px;
+      z-index: 2;
+      position:absolute;
+      background-attachment:fixed ;
+    }
+    
+    .profile2{
+      width: 300pt;
+      height: 300pt;
+      margin-left: 550px;
+      margin-top: 500px;
+      z-index: 2;
+      position:absolute;
+      background-attachment:fixed ;
+    }
+    
+   
+    
+    .content2 {
+      position: absolute;
+      bottom: 200px;
+      padding: 19px;
+      min-width: 400px;
+      background-color: #f9f9f9;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      visibility: hidden;
+      opacity: 0;
+      margin-bottom: 300px;
+      margin-left: -130px;
+      text-align: center;
+  
+    
+    }
+    
+    .content2 .body2 {
+      padding: 4px;
+    }
+    
+    .content2 .body2 p {
+      font-size: 23pt;
+      color: #272727;
+    }
+    
+    .profile2:hover .content2 {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    #image2 {
+      width: 230pt;
+      height: 230pt;
+      margin-top: 570pt;
+    margin-left: 30pt;
+    position:absolute;
+    z-index: 3;
+    
+    }
+    
+    .profile3{
+      width: 230pt;
+      height: 230pt;
+      margin-top: 570pt;
+    margin-left: 30pt;
+    position:absolute;
+    z-index: 3;
+    }
+    
+    .profile3:hover {
+      cursor: pointer;
+    }
+    
+    .content3 {
+      position: absolute;
+      bottom: 180px;
+      padding: 20px;
+      min-width: 200px;
+      background-color: #f9f9f9;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      visibility: hidden;
+      opacity: 0;
+      margin-bottom: 90px;
+      margin-left:0px;
+      text-align: center;
+    
+    }
+    
+    .content3 .body3 {
+      padding: 0em;
+    }
+    
+    .content3 .body3 p {
+      font-size: 22pt;
+      color: #272727;
+    }
+    
+    .profile3:hover .content3 {
+      visibility: visible;
+      opacity: 1;
+    }
+
+
+.scroll-down1 {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  position: absolute;
+  left: 7%;
+  bottom: 70px;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 4;
+  opacity: 0;
+}
+
+.scroll-down2 {
+  width: 290pt;
+      height: 200pt;
+      margin-top: 360px;
+      margin-left: 1000px;
+      position:absolute;
+      z-index: 3;
+}
+
+#sec-2 {
+  width: 100vw;
+  height: 100vh;
+    background: url("ruangbobo-08.png");
+    background-position:center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#image3 {
+      width: 400pt;
+      height: 400pt;
+      margin-top: 150px;
+      margin-left: 899px;
+      position:absolute;
+      z-index: 1;
+    }
+    
+    .profile{
+      width: 380pt;
+      height: 180pt;
+      margin-top: 10px;
+      margin-left: 875px;
+      z-index: 1;
+      position: absolute;
+    }
+    
+    .profile:hover {
+      cursor: pointer;
+    }
+    
+    .content {
+      position: absolute;
+      top: 50px;
+      padding: 20px;
+      min-width: 400px;
+      background-color: #f9f9f9;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      visibility: hidden;
+      opacity: 0;
+    
+    }
+    
+    .content .body {
+      padding: 1em;
+    }
+    
+    .content .body p {
+      font-size: 0.95em;
+      color: #272727;
+    }
+    
+    .profile:hover .content {
+      visibility: visible;
+      opacity: 1;
+    }
+
+
+
+    #image21 {
+      width: 300pt;
+      height: 300pt;
+      margin-top: 500px;
+      margin-left: 300px;
+      position:absolute;
+      z-index: 1;
+    }
+    
+    .profile21{
+      width: 300pt;
+      height: 300pt;
+      margin-top: 490px;
+      margin-left: 300px;
+      position:absolute;
+      z-index: 4;
+    }
+    
+    .profile21:hover {
+      cursor: pointer;
+    }
+    
+    .content21 {
+      position: absolute;
+      bottom: 350px;
+      padding: 5px;
+      min-width: 300px;
+      background-color: #f9f9f9;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      visibility: hidden;
+      opacity: 0;
+      text-align: center;
+    
+    }
+    
+    .content21 .body21 {
+      padding: 0;
+    }
+    
+    .content21 .body21 p {
+      font-size: 26pt;
+      color: #272727;
+    }
+    
+    .profile21:hover .content21 {
+      visibility: visible;
+      opacity: 1;
+    }
+
+
+    
+   .modal{
+    transition: all .5s;
+   }
+ 
+   .modal__content{
+    width: 75%;
+    height: 65%;
+    background-color: #fff;
+    position: absolute;
+    top: -5%;
+    left: 30%;
+    transform: translate(100%, 30%);
+    padding: 2em;
+    border-radius: 1em;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+    z-index: 5;
+    border: 2px solid rgb(0, 0, 0);
+
+   }
+ 
+   #modal:target{
+    opacity: 1;
+    visibility: visible;
+   }
+ 
+   #modal:target .modal__content{
+    opacity: 1;
+    visibility: visible;
+   }
+ 
+   .modal__close{
+    color: #363636;
+    font-size: 2em;
+    position: absolute;
+    top: .5em;
+    right: 1em;
+    text-decoration: none;
+   }
+ 
+  
+ 
+   .modal__paragraph{
+    line-height: 1.5em;
+   }
+
+   .column {
+    float: left;
+    padding-left: 30pt;
+    }
+    /* right column */
+    .column.right {
+    width: 45%;
+    }
+    /* Middle column */
+    .column.middle {
+    width: 45%;
+    }
+   
+ 
+ .modal-open{
+  width: 300pt;
+      height: 150pt;
+      margin-top: 695px;
+      margin-left: 300px;
+      position:absolute;
+      z-index: 5;
+ }
+
+
+    #image22 {
+      width: 380pt;
+      height: 400pt;
+      margin-top: 40px;
+      margin-left: 540px;
+      position:absolute;
+      z-index: 1;
+    }
+    
+    .profile22{
+      width: 380pt;
+      height: 400pt;
+      margin-top: 40px;
+      margin-left: 540px;
+      position:absolute;
+      z-index: 4
+    }
+    
+    .profile22:hover {
+      cursor: pointer;
+    }
+    
+    .content22 {
+      position: absolute;
+      bottom: 350px;
+      left: -240px;
+      padding: 10px;
+      min-width: 300px;
+      background-color: #f9f9f9;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      visibility: hidden;
+      opacity: 0;
+      text-align: center;
+    
+    }
+    
+    .content22 .body22 {
+      padding: 0em;
+    }
+    
+    .content22 .body22 p {
+      font-size: 27pt;
+      color: #272727;
+    }
+    
+    .profile22:hover .content22 {
+      visibility: visible;
+      opacity: 1;
+    }
+
+
+
+    .modal2{
+      transition: all .5s;
+     }
+   
+     .modal2__content{
+      width: 75%;
+      height: 65%;
+      background-color: #fff;
+      position: absolute;
+      top: -5%;
+      left: 30%;
+      transform: translate(100%, 30%);
+      padding: 2em;
+      border-radius: 1em;
+      opacity: 0;
+      visibility: hidden;
+      transition: all .5s;
+      z-index: 5;
+      border: 2px solid rgb(0, 0, 0);
+     }
+   
+     #modal2:target{
+      opacity: 1;
+      visibility: visible;
+     }
+   
+     #modal2:target .modal2__content{
+      opacity: 1;
+      visibility: visible;
+     }
+   
+     .modal2__close{
+      color: #363636;
+      font-size: 2em;
+      position: absolute;
+      top: .5em;
+      right: 1em;
+      text-decoration: none;
+     }
+   
+     
+   
+    
+     .modal__paragraph{
+      line-height: 1.5em;
+     }
+  
+     .column {
+      float: left;
+      padding-left: 30pt;
+      }
+      /* right column */
+      .column.right {
+      width: 45%;
+      }
+      /* Middle column */
+      .column.middle {
+      width: 45%;
+      }
+   
+   .modal2-open{
+    width: 380pt;
+      height: 200pt;
+      margin-top: 300px;
+      margin-left: 540px;
+      position:absolute;
+      z-index: 4;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+#babi{
+  width: 360pt;
+  height: 360pt;
+  margin-top: 10px;
+  margin-left: 590px;
+  position:absolute;
+  z-index: 4;
+}
+
+    
+#babi2{
+  width: 360pt;
+  height: 360pt;
+  margin-top: 15px;
+  margin-LEFT: -580px;
+  position:absolute;
+  z-index: 4;
+}
+
+#sec-3 {
+  background-color: green;
+  width: 100vw;
+  height: 100vh;
+   
+}
+ 
+
+.contact-section{
+  background-size: cover;
+  padding: 40px;
+  margin-top: 160pt;
+  font-size: 40pt;
+}
+.contact-section h1{
+  text-align: center;
+  color: #ddd;
+-moz-text-fill-color: white;
+-webkit-text-fill-color: white;
+-moz-text-stroke-color: black;
+-webkit-text-stroke-color: black;
+-moz-text-stroke-width: 2px;  
+-webkit-text-stroke-width: 2px;
+font-size: 100px;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  margin: 15px auto;
+}
+
+.contact-form{
+  max-width: 1200px;
+  max-height: 900;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+  margin-top: -70pt;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background-color: green;
+  padding: 20px 40px;
+  color: rgb(41, 23, 23);
+  transition: 0.5s;
+  border: 2px solid rgb(0, 0, 0);
+
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background-color: green;
+  color: black;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 2px solid rgb(0, 0, 0);
+
+}
+.contact-form-btn:hover{
+  background: #F5BD44;
+}

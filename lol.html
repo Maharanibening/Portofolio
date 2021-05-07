@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="lol.css" />
+
+</head>
+<body>
+	<img id="slide" onMouseover="stopShow()" onMouseout="runShow()">
+
+	<script>
+       var i = 0;
+       var timer;
+       var path = [];
+       
+       path[0] = "telpon-06.png";
+       path[1] = "telpon-07.png";
+       
+       function changeImage(){
+           document.getElementById("slide").src=path[i];
+           
+           if(i < path.length - 1){
+               i++;
+           }else {
+               i = 0;
+           }
+               
+           timer = setTimeout("changeImage()", 180);
+       }
+           
+         function stopShow(){
+             clearTimeout(timer);
+         }  
+           
+         function runShow() {
+             changeImage();
+         }   
+           
+          window.onload = runShow; 
+		
+	</script>
+	</body>
+</html>
